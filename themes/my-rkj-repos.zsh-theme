@@ -36,7 +36,7 @@ function virtualenv_info {
 }
 
 function format_datetime {
-    echo $(date +'%Y-%m-%d %H:%M:%S UTC%:z %Z')
+    echo $(date +'%Y-%m-%d %H:%M:%S UTC%:z')
 }
 
 PROMPT=$'%{$fg_bold[blue]%}┌─[%{$fg_bold[green]%}%n%b%{$fg[black]%}@%{$fg[cyan]%}%m%{$fg_bold[blue]%}]%{$reset_color%} %{$fg_bold[blue]%}[%{$fg_bold[default]%}%~%{$fg_bold[blue]%}]%{$reset_color%} %{$fg_bold[blue]%}[%b%{$fg[yellow]%}$(format_datetime)'%b$'%{$fg_bold[blue]%}]
